@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #34699a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  padding: auto;
+  background-color: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 25px 50px;
+  height: 30px;
+  width: 50%;
+  text-decoration: dotted;
+}
+
+#team1_inc_one,
+#team1_inc_two,
+#team1_inc_three,
+#team2_inc_one,
+#team2_inc_two,
+#team2_inc_three {
+  border: 2px solid wheat;
+  background-color: #34699a;
+}
